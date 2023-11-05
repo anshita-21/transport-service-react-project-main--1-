@@ -1,0 +1,85 @@
+/* Header Branding */
+.brand-name {
+  color: #f0b81d;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Navigation Links */
+li a {
+  color: #f0b81d;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  transition: color 0.4s ease-in;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+li a:hover {
+  color: rgb(54, 54, 54);
+}
+
+/* Animated Underline on Link Hover */
+li a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #f0b81d;
+  transition: width 0.4s ease-in-out;
+}
+
+li a:hover::after {
+  width: 100%;
+}
+
+/* Login Button */
+.login-btn {
+  background: linear-gradient(to right, #484848, #000);
+  border-radius: 10px;
+  transition: background 0.4s ease-in, color 0.4s ease-in;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #000;
+  color: #ffd256;
+}
+
+/* User Name Display */
+.user-name {
+  font-size: 1.4rem;
+  color: #926c02;
+  font-weight: bolder;
+  text-align: center;
+  margin: -4px 6px;
+  border-radius: 10px;
+  background: rgb(245, 245, 245);
+  padding: 10px;
+}
+
+/* Logout Button */
+.logout-btn {
+  background: linear-gradient(to right, #484848, #000);
+  transition: background 0.4s ease-in, color 0.4s ease-in;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #f0b81d;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #000;
+  color: #ffd256;
+}
+
+/* Smooth Scrollbar */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #f0b81d #484848;
+}
+
+/* Optional: Add more styling for other elements as needed */

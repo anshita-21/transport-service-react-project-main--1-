@@ -1,0 +1,52 @@
+/* Regional Transport Office Homepage Styles */
+.bg {
+  background: #f2f2f2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 425px) {
+  .bg {
+    height: 130vh;
+  }
+}
+
+/* Additional Features for Regional Transport Office Homepage */
+.homepage-content {
+  padding: 50px;
+  background: rgba(147, 42, 42, 0.95);
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.homepage-content h1 {
+  color: #333;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.homepage-content p {
+  color: #555;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.homepage-content a {
+  color: #007bff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.homepage-content a:hover {
+  color: #0056b3;
+}

@@ -1,0 +1,61 @@
+/* Ride Style Section */
+.ride-style {
+  background: linear-gradient(135deg, #3498db, #8e44ad);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+/* Ride Details Section */
+.rideDetails {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.rideDetails img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+/* Pick Up Section */
+.pickUp {
+  background: #f3c951;
+  color: #fff;
+  max-width: 100%;
+  padding: 15px 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Destination Button */
+.btn-destination {
+  background: linear-gradient(135deg, #e0e0e0, #f2f2f2) !important;
+  border: none !important;
+  color: #333 !important;
+  padding: 15px 25px;
+  border-radius: 15px;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn-destination:hover {
+  background: linear-gradient(135deg, #333, #555) !important;
+  color: #f3c951 !important;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Styles for Small Screens */
+@media (max-width: 425px) {
+  .rideDetails h4 {
+    font-size: 18px;
+  }
+  .ride-style,
+  .rideDetails,
+  .pickUp {
+    width: 100%;
+  }
+}
